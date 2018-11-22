@@ -1,3 +1,51 @@
 body {
-  font-family: Palatino;
+  font-family: 'Marker Felt';
+  color: gold;
+  font-size: 3rem;
+  background-color: rgb(255, 0, 245);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+}
+
+label {
+  /* filter: hue-rotate(rgb(255, 0, 245),180deg); */
+}
+
+#reading-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.book {
+  display: inline-block;
+  width: 30%;
+  background-color: rgb(255, 0, 245);
+  box-shadow: 0px 0px 14px black;
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  transform: rotate(.5deg);
+}
+
+.category, .title, .author {
+  text-align: center;
+}
+
+.category {
+  font-size: .9rem;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.author {
+  font-size: 1.1rem;
 }
