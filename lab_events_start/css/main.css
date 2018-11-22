@@ -19,10 +19,33 @@ label {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content:space-between;
+}
+
+form, h1 {
+  padding: 2rem;
+}
+
+input [type="submit"] {
+  font-size: 1.5rem;
+}
+
+@keyframes ohgod {
+  from {
+    background-color: red;
+    filter: hue-rotate(0deg);
+  }
+  to {
+    background-color: red;
+    filter: hue-rotate(360deg)
+  }
 }
 
 .book {
+  animation: ohgod;
+  animation-duration: 50ms;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
   display: inline-block;
   width: 30%;
   background-color: rgb(255, 0, 245);
@@ -31,7 +54,7 @@ label {
   padding: 2rem;
   border: 2px solid black;
   border-radius: 2rem;
-  transform: rotate(.5deg);
+  transform: rotate(.9deg);
 }
 
 .category, .title, .author {
