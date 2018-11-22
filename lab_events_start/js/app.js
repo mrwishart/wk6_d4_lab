@@ -7,12 +7,15 @@ const handleSubmit = (event) => {
   const injection = document.querySelector('#reading-list');
 
   // make book div
-
+  const newBook = document.createElement("div");
+  newBook.classList.add("book");
+  
   // make 3 child divs (title, author, category)
 
   // attach children to book divs
 
   // attach book div to injection point
+  injection.appendChild(newBook);
 
 }
 
