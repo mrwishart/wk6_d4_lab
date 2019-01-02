@@ -1,6 +1,8 @@
 # Events Lab
 
-**Lab Duration: 120 minutes**
+Week 6, Day 4 afternoon lab at CodeClan. Paired with Steven and James.
+
+Original brief:
 
 ### Learning Objectives
 
